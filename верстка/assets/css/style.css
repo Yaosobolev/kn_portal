@@ -1,0 +1,153 @@
+body {
+    background: #F9F9F9 !important;
+}
+
+.mobile {
+    display: none;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+ul.ul-check {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+ul.ul-check li {
+    padding-left: 1em;
+    text-indent: -1em;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14pt;
+    line-height: 19px;
+    color: #000000;
+
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+ul.ul-check li:before {
+    content: "✓";
+    padding-right: 10px;
+    color: #3355A9;
+    font-size: 14pt;
+    font-weight: 900;
+}
+
+
+ul.ul-dot {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+ul.ul-dot li {
+    padding-left: 1em;
+    text-indent: -1em;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12pt;
+    line-height: 19px;
+    color: #000000;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+ul.ul-dot li:before {
+    content: "•";
+    padding-right: 10px;
+    color: #3355A9;
+    font-size: 20pt;
+    font-weight: 900;
+}
+
+ul.ul-dot li .sub, ul.ul-check li .sub {
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 1.2rem;
+}
+
+ul.ul-star  {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+ul.ul-star li {
+    padding-left: 1em;
+    text-indent: -1em;
+
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0em;
+    text-align: left;
+
+
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+ul.ul-star li:before {
+    position: relative;
+    content: "*";
+    padding-right: 10px;
+    top: 5px;
+    color: red;
+    font-size: 14pt;
+    font-weight: 900;
+}
+
+
+.card-subtitle a {
+    color: #139E19;
+}
+
+
+.linked {
+    color: #002A93;
+}
+
+.tiny {
+    font-weight: 400;
+}
+
+
+@media (max-width: 1399px) {
+    .mobile {
+        display: block;
+    }
+    .desktop {
+        display: none !important;
+    }
+    .not-mobile {
+        display: none !important;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .not-super-mobile {
+        display: none !important;
+    }
+}
+
+@media (min-width: 769px) {
+    .super-mobile {
+        display: none !important;
+    }
+}
